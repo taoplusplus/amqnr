@@ -32,16 +32,21 @@ Plateau:
 - _Shrine::JaBaij:
     comment: Clip in
 
-- _Npc<Old Man>:
+- _Npc<Old Man 1>:
+    icon: king
     coord: [-461.70, 178.41, 1990.18]
     comment: Text options 2-1-1-2
 
 - .dir(BLSS)
 - _Tower::GreatPlateau
 
-- .dir(WB over invisible wall):
-    notes: Lag stop looking at forest and fall damage cancel
+- _Npc<Old Man 2>:
+    icon: king
+    coord: [-572.50, 178.89, 1696.50]
+    comment: Text options 1-2-2-1
 
+- .dir(BLSS):
+    comment: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=521)
 
 - _Material<Ruby,1>:
     coord: [-671.65, 171.79, 1522.61]
@@ -54,10 +59,11 @@ Plateau:
 
 - .dir(Tree WB)
 - _Shrine::OwaDaim:
-    comment: Skip hammer.
+    comment: IRON SLEDGEHAMMER
+    notes: Keep Boko Spear for blue flame smuggling.
 
 - .dir(Boulder Launch + BLSS):
-    notes: 8 hits on boulder (4 and 4)
+    notes: 3 hits with hammer.
 - _Shrine::KehNamut
 
 - .dir(BLSS)

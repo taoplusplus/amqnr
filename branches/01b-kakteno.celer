@@ -1,0 +1,76 @@
+Kakteno:
+- .dir(BLSS)
+
+- _Npc::SheikaFemale<Paya and Impa>:
+    line-color: rgb(221,160,221)
+    movements:
+        - to: [1784.43, 228.91, 986.46]
+        - to: [1772.71, 229.43, 984.31]
+
+- _Equipment::Shield<Pot Lid>:
+    coord: [1800.25, 219.63, 1012.57]
+
+- _Shop<Produce Shop>:
+    coord: [1792.02, 222.40, 1028.39]
+    comment: Sell Ruby, option 3
+    var-change:
+        Rupee: 210
+    notes: .v(Rupee) rupees
+
+- .dir(N>)
+
+- Activate Ta'loh Naeg:
+    coord: [1842,891]
+    icon: shrine
+
+- .dir(N) to hill:
+    coord: [1871.5,810.5]
+    notes: Pick up 2 Silent Shroom.
+
+- .dir(BLSS)
+
+- Activate Myahm Agana:
+    coord: [3387.62, 240.64, 2214.92]
+    icon: shrine
+
+- .dir(N>)
+- .loc(Blue Flame):
+    coord: [3447.5,1982]
+    comment: Use Boko Spear.
+
+- .dir(E> + E)
+- _Discover<Activate Tech Lab>:
+    movements:
+        - to: [3637.5,2098]
+        - to: [3783,2106.5]
+
+- _Npc<Purah>:
+    coord: [3774.95, 357.00, 2126.02]
+
+- _Warp::Shrine::TalohNaeg
+
+- _Npc::SheikaFemale<Impa 2>:
+    line-color: rgb(255,0,255)
+    coord: [1772.71, 229.43, 984.31]
+
+- _Npc<Goddess Statue>:
+    coord: [1840.12, 218.54, 997.89]
+    comment: +1 heart
+
+- .dir(N>>)
+
+- _Snap::Quest<Great Fairy Fountain>:
+    coord: [1976.00, 267.50, 846.00]
+    comment: 3 fairy
+    var-change:
+        Rupee: -100
+    notes: .v(Rupee) rupees
+
+- .dir(W>) to hill:
+    coord: [1871.5,810.5]
+
+- .dir(BLSS)
+
+- _Memory::LanayruRoad
+
+- _Warp::Shrine::KehNamut

@@ -1,25 +1,21 @@
 Vah Medoh:
-- .dir(BLSS):
-    notes: Climb Temple of Time.
+- Elevator .dir(BLSS)
 
-- _Material<Spicy Pepper,3>:
-    coord: [-2899.45, 276.27, -552.89]
+- _Material<Diamond>:
     line-color: rgb(0,255,0)
+    coord: [-2247.90, 353.39, 662.05]
 
-- _Npc::SheikaMale<Toren>:
-    coord: [-2916.00, 274.73, -561.00]
+- .dir(N>)
 
-- _Material<Rupee,500>
+- _Material<Hearty Durian,10>:
+    coord: [-2190.5,441]
 
 - .dir(BLSS)
 
-- _Material<Hearty Salmon,2>:
-    coord: [-3490.37, 258.53, -1853.66]
+- _Memory::AncientColumns
 
-- _Equipment::Weapon<Iron Sledgehammer>:
-    coord: [-3498.15, 261.19, -1848.67]
+- .dir(BLSS)
 
-- .dir(W)
 - _Npc::Rito<Kaneli>:
     coord: [-3627.20, 323.57, -1830.81]
 
@@ -29,9 +25,9 @@ Vah Medoh:
 
 - _Shop<General Store>:
     coord: [-3643.01, 290.64, -1823.43]
-    comment: Sell Ruby
+    comment: Sell Diamond
     var-change:
-        Rupee: 210
+        Rupee: 500
     notes: .v(Rupee) rupees.
 
 - _Material<Sunshroom,4>:
@@ -45,9 +41,6 @@ Vah Medoh:
 - _Cook<Spicy Mushroom Skewer>:
     coord: [-3792.60, 267.34, -2319.19]
     comment: 4 Sunshroom
-
-- _Cook<Hearty Fish Skewer>:
-    comment: Hearty Salmon
 
 - _Material<Arrow,10>
 
@@ -63,7 +56,8 @@ Vah Medoh:
         BombArrow: -8
     split-type: UserDefined
 
-- _Material<Ancient Core,1>
+# - _Material<Ancient Core,1>
+
 - _Material<Ice Arrow,10>
 
 - .boss(Windblight):
@@ -80,5 +74,3 @@ Vah Medoh:
     coord: [-3627.20, 323.57, -1830.81]
 
 - _Chest::Special<Great Eagle Bow>
-
-- _Warp::Shrine::KehNamut

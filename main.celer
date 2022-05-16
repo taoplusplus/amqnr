@@ -9,13 +9,17 @@ _project:
 _route:
   - Plateau:
       - __use__ Plateau
+  - Kakteno:
+      - __use__ Kakteno
   - Vah Medoh:
       - __use__ Vah Medoh
+  - Memories:
+      - __use__ Memories
   - Vah Naboris:
       - __use__ Vah Naboris
-  - Vah Ruta:
-      - __use__ Vah Ruta
   - Vah Rudania:
       - __use__ Vah Rudania
+  - Vah Ruta:
+      - __use__ Vah Ruta
   - Ganon:
       - __use__ Ganon
