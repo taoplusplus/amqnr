@@ -6,6 +6,9 @@ Kakteno:
     movements:
         - to: [1784.43, 228.91, 986.46]
         - to: [1772.71, 229.43, 984.31]
+    var-change:
+        MainQuest: 1
+    notes: .v(MainQuest)/14 complete
 
 - _Equipment::Shield<Pot Lid>:
     coord: [1800.25, 219.63, 1012.57]
@@ -52,6 +55,9 @@ Kakteno:
 - _Npc::SheikaFemale<Impa 2>:
     line-color: rgb(255,0,255)
     coord: [1772.71, 229.43, 984.31]
+    var-change:
+        MainQuest: 1
+    notes: .v(MainQuest)/14 complete
 
 - _Npc<Goddess Statue>:
     coord: [1840.12, 218.54, 997.89]

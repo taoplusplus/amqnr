@@ -25,6 +25,9 @@ Vah Naboris:
 - _Npc::Gerudo<Riju>:
     coord: [-3892.04, 157.48, 2968.14]
     comment: In throne room
+    var-change:
+        MainQuest: 1
+    notes: .v(MainQuest)/14 complete
 
 - .dir(<<N turn) to enemy camp
 
@@ -119,5 +122,8 @@ Vah Naboris:
 - _Npc::Gerudo<Riju>:
     coord: [-3892.04, 157.48, 2968.14]
     comment: In throne room
+    var-change:
+        MainQuest: 1
+    notes: .v(MainQuest)/14 complete
 
 - _Warp::VahNaboris

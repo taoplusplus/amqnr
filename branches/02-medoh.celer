@@ -72,5 +72,8 @@ Vah Medoh:
 
 - _Npc<Kaneli>:
     coord: [-3627.20, 323.57, -1830.81]
+    var-change:
+        MainQuest: 1
+    notes: .v(MainQuest)/14 complete
 
 - _Chest::Special<Great Eagle Bow>

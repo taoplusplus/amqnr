@@ -44,6 +44,9 @@ Plateau:
     icon: king
     coord: [-572.50, 178.89, 1696.50]
     comment: Text options 1-2-2-1
+    var-change:
+        MainQuest: 1
+    notes: .v(MainQuest)/14 complete
 
 - .dir(BLSS):
     comment: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=521)
@@ -71,3 +74,6 @@ Plateau:
     icon: king
     coord: [-812, 1966.1012189378007]
     split-type: UserDefined
+    var-change:
+        MainQuest: 1
+    notes: .v(MainQuest)/14 complete

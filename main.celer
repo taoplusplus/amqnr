@@ -21,5 +21,5 @@ _route:
       - __use__ Vah Rudania
   - Vah Ruta:
       - __use__ Vah Ruta
-  - Ganon:
+  - Cleanup:
       - __use__ Ganon

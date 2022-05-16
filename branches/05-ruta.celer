@@ -4,6 +4,9 @@ Vah Ruta:
     line-color: rgb(196,196,255)
     coord: [3338.31, 268.90, -551.60]
     comment: Fish Drama
+    var-change:
+        MainQuest: 1
+    notes: .v(MainQuest)/14 complete
 
 - _Npc::ZoraMale<Muzu>:
     coord: [3303.90, 245.31, -496.23]
@@ -35,5 +38,8 @@ Vah Ruta:
 - _Npc::ZoraMale<King Dorephan>:
     line-color: rgb(128,128,255)
     coord: [3338.31, 268.90, -551.60]
+    var-change:
+        MainQuest: 1
+    notes: .v(MainQuest)/14 complete
 
 - _Warp::VahRudania
