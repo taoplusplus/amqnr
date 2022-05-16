@@ -1,0 +1,21 @@
+---
+_project:
+  authors:
+    - TaoPlusPlus
+  description: ""
+  name: All Main Quests No Restrictions
+  url: ""
+  version: 0.1.0
+_route:
+  - Plateau:
+      - __use__ Plateau
+  - Vah Medoh:
+      - __use__ Vah Medoh
+  - Vah Naboris:
+      - __use__ Vah Naboris
+  - Vah Ruta:
+      - __use__ Vah Ruta
+  - Vah Rudania:
+      - __use__ Vah Rudania
+  - Ganon:
+      - __use__ Ganon

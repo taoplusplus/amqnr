@@ -1,0 +1,67 @@
+Plateau:
+- SOR clip:
+    notes: Do not activate time of day.
+
+- .dir(Run)
+
+- .loc(Boko Camp)
+
+- _Material<Spicy Pepper,6>:
+    line-color: rgb(204,204,204)
+    coord: [-965.30, 238.52, 1956.67]
+
+- _Equipment::Shield<Pot Lid>:
+    coord: [-952.34, 238.33, 1959.44]
+
+- _Equipment::Weapon<Boko Spear>
+
+- .dir(Run and shield surf):
+    notes: First Zelda cutscene.
+
+- .loc(Temple of Time):
+    notes: Clip in.
+
+- _Chest<Traveler's Bow>:
+    coord: [-832.43, 222.00, 1963.11]
+
+- _Material<Arrow,5>
+
+- .dir(BLSS):
+    notes: .link([Skew fix]https://twitter.com/TheKoroks/status/1477147629427433472?s=20&t=67Yr65osvtxvFD8Voud8vQ)
+
+- _Shrine::JaBaij:
+    comment: Clip in
+
+- _Npc<Old Man>:
+    coord: [-461.70, 178.41, 1990.18]
+    comment: Text options 2-1-1-2
+
+- .dir(BLSS)
+- _Tower::GreatPlateau
+
+- .dir(WB over invisible wall):
+    notes: Lag stop looking at forest and fall damage cancel
+
+
+- _Material<Ruby,1>:
+    coord: [-671.65, 171.79, 1522.61]
+
+- _Shrine::OmanAu
+
+- .dir(BLSS)
+- .loc(Tree):
+    coord: [-839,2273.5]
+
+- .dir(Tree WB)
+- _Shrine::OwaDaim:
+    comment: Skip hammer.
+
+- .dir(Boulder Launch + BLSS):
+    notes: 8 hits on boulder (4 and 4)
+- _Shrine::KehNamut
+
+- .dir(BLSS)
+- _Npc<Paraglider>:
+    icon: king
+    coord: [-812, 1966.1012189378007]
+    split-type: UserDefined

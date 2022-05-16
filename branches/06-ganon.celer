@@ -1,0 +1,16 @@
+Ganon:
+- .dir(BLSS):
+    notes: .link([Clip]https://youtu.be/6H7DROMaXQU?t=5263)
+
+- .boss(Calamity Ganon):
+    line-color: rgb(255,255,255)
+    icon: ganon
+    coord: [-254.00, 191.01, -1061.37]
+    comment: Skip
+    notes: .link([Clip]https://youtu.be/6H7DROMaXQU?t=5325), .link([Setup]https://discord.com/channels/269611402854006785/293465650540838913/953828980832735292)
+    split-type: UserDefined
+
+- .boss(Dark Beast Ganon):
+    icon: ganon
+    comment: Don't die
+    split-type: UserDefined

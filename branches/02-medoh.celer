@@ -1,0 +1,84 @@
+Vah Medoh:
+- .dir(BLSS):
+    notes: Climb Temple of Time.
+
+- _Material<Spicy Pepper,3>:
+    coord: [-2899.45, 276.27, -552.89]
+    line-color: rgb(0,255,0)
+
+- _Npc::SheikaMale<Toren>:
+    coord: [-2916.00, 274.73, -561.00]
+
+- _Material<Rupee,500>
+
+- .dir(BLSS)
+
+- _Material<Hearty Salmon,2>:
+    coord: [-3490.37, 258.53, -1853.66]
+
+- _Equipment::Weapon<Iron Sledgehammer>:
+    coord: [-3498.15, 261.19, -1848.67]
+
+- .dir(W)
+- _Npc::Rito<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+
+- _Npc::Rito<Saki>:
+    coord: [-3606.64, 323.62, -1823.03]
+    comment: Revali memory
+
+- _Shop<General Store>:
+    coord: [-3643.01, 290.64, -1823.43]
+    comment: Sell Ruby
+    var-change:
+        Rupee: 210
+    notes: .v(Rupee) rupees.
+
+- _Material<Sunshroom,4>:
+    comment: Buy all
+    var-change:
+        Rupee: -64
+    notes: .v(Rupee) rupees.
+
+- .dir(<N turn super)
+
+- _Cook<Spicy Mushroom Skewer>:
+    coord: [-3792.60, 267.34, -2319.19]
+    comment: 4 Sunshroom
+
+- _Cook<Hearty Fish Skewer>:
+    comment: Hearty Salmon
+
+- _Material<Arrow,10>
+
+- _Npc::Rito<Teba>:
+    coord: [-3798.52, 267.35, -2314.14]
+
+- _Chest<Falcon Bow>
+
+- .dir(Enter Medoh):
+    icon: medoh-enter
+    var-change:
+        Arrow: -5
+        BombArrow: -8
+    split-type: UserDefined
+
+- _Material<Ancient Core,1>
+- _Material<Ice Arrow,10>
+
+- .boss(Windblight):
+    icon: calamity
+
+- Revali's Gale:
+    icon: medoh-done
+    movements:
+        - to: [-3565.625,-1817.375]
+          warp: true
+    split-type: UserDefined
+
+- _Npc<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+
+- _Chest::Special<Great Eagle Bow>
+
+- _Warp::Shrine::KehNamut
