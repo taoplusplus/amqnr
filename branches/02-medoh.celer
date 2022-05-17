@@ -23,15 +23,8 @@ Vah Medoh:
     coord: [-3606.64, 323.62, -1823.03]
     comment: Revali memory
 
-- _Shop<General Store>:
+- _Shop<4 Sunshroom>:
     coord: [-3643.01, 290.64, -1823.43]
-    comment: Sell Diamond
-    var-change:
-        Rupee: 500
-    notes: .v(Rupee) rupees.
-
-- _Material<Sunshroom,4>:
-    comment: Buy all
     var-change:
         Rupee: -64
     notes: .v(Rupee) rupees.
@@ -56,7 +49,7 @@ Vah Medoh:
         BombArrow: -8
     split-type: UserDefined
 
-# - _Material<Ancient Core,1>
+- _Material<Ancient Core,1>
 
 - _Material<Ice Arrow,10>
 

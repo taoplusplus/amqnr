@@ -13,6 +13,13 @@ Vah Naboris:
 
 - _Memory::KaraKaraBazaar
 
+- _Npc<Maike>:
+    coord: [-3240.56, 129.18, 2525.60]
+    comment: Sell Diamond, Core
+    var-change:
+        Rupee: 570
+    notes: .v(Rupee) rupees
+
 - .dir(S>)
 - _Npc<Vilia>:
     coord: [-3259.27, 163.93, 2611.54]
