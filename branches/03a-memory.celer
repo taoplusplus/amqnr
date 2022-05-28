@@ -10,7 +10,7 @@ Memories:
 - _Memory::HyruleCastle
 
 - _Equipment::Weapon<Edge of Duality>:
-    notes: Kill Moblin with GEB and ice arrows.
+    notes: Kill Moblin with GEB and ice arrows. MUST SAVE 2 FOR BTBS.
     coord: [-311.81, 256.46, -997.30]
 
 - _Equipment::Bow<Royal Guard's Bow>:
@@ -20,11 +20,12 @@ Memories:
 
 - _Memory::SacredGrounds
 
-- .dir(BLSS)
+- .dir(E> super) to hill
+- .dir(E>> turn)
 
 - _Memory::HyruleField
 
-- .dir(S + BLSS)
+- .dir(S> + BLSS)
 
 - _Memory::WestNecluda
 

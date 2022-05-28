@@ -32,11 +32,11 @@ Kakteno:
 
 - .dir(BLSS)
 
-- Activate Myahm Agana:
-    coord: [3387.62, 240.64, 2214.92]
-    icon: shrine
+#- Activate Myahm Agana:
+#    coord: [3387.62, 240.64, 2214.92]
+#    icon: shrine
 
-- .dir(N>)
+#- .dir(N>)
 - .loc(Blue Flame):
     coord: [3447.5,1982]
     comment: Use Boko Spear.
@@ -52,6 +52,10 @@ Kakteno:
 
 - _Warp::Shrine::TalohNaeg
 
+- _Npc<Goddess Statue>:
+    coord: [1840.12, 218.54, 997.89]
+    comment: +1 heart
+
 - _Npc::SheikaFemale<Impa 2>:
     line-color: rgb(255,0,255)
     coord: [1772.71, 229.43, 984.31]
@@ -59,11 +63,7 @@ Kakteno:
         MainQuest: 1
     notes: .v(MainQuest)/14 complete
 
-- _Npc<Goddess Statue>:
-    coord: [1840.12, 218.54, 997.89]
-    comment: +1 heart
-
-- .dir(N>>)
+- .dir(<W)
 
 - _Snap::Quest<Great Fairy Fountain>:
     coord: [1976.00, 267.50, 846.00]

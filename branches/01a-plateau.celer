@@ -43,7 +43,7 @@ Plateau:
 - _Npc<Old Man 2>:
     icon: king
     coord: [-572.50, 178.89, 1696.50]
-    comment: Text options 1-2-2-1
+    comment: Glitched cutscene
     var-change:
         MainQuest: 1
     notes: .v(MainQuest)/14 complete
