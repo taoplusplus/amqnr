@@ -44,12 +44,12 @@ Vah Rudania:
     coord: [1713.95, 498.05, -2446.92]
     comment: Daruk Memory
 
-- .dir(SE, E> super)
-- Activate Daqa Koh:
-    icon: shrine
-    coord: [2041.40, 603.06, -2329.10]
+- .dir(S) to small peak
+#- Activate Daqa Koh:
+#    icon: shrine
+#    coord: [2041.40, 603.06, -2329.10]
 
-- .dir(E)
+- .dir(E + midair)
 - Kill moblins (ice arrows)
 - _Npc::Goron<Yunobo>:
     line-color: rgb(196,0,0)
