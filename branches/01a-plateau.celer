@@ -1,22 +1,21 @@
 Plateau:
-- SOR clip:
+- SoR clip:
     notes: Do not activate time of day.
-
-- .dir(Run)
 
 - .loc(Boko Camp)
 
-- _Material<Spicy Pepper,6>:
+- +_Equipment::Shield<Pot Lid>:
+    coord: [-952.34, 238.33, 1959.44]
+
+- +_Equipment::Weapon<Boko Spear>:
+    hide-icon-on-map: true
+
+- +_Material<6 Spicy Pepper>:
     line-color: rgb(204,204,204)
     coord: [-965.30, 238.52, 1956.67]
 
-- _Equipment::Shield<Pot Lid>:
-    coord: [-952.34, 238.33, 1959.44]
-
-- _Equipment::Weapon<Boko Spear>
-
-- .dir(Run and shield surf):
-    notes: First Zelda cutscene.
+- +_Material<4 Hylian Shroom>:
+    hide-icon-on-map: true
 
 - .loc(Temple of Time):
     notes: Clip in.
@@ -24,56 +23,42 @@ Plateau:
 - _Chest<Traveler's Bow>:
     coord: [-832.43, 222.00, 1963.11]
 
-- _Material<Arrow,5>
+- 5 Normal Arrow:
+    icon: bow
+    hide-icon-on-map: true
 
-- .dir(BLSS):
+- BLSS:
     notes: .link([Skew fix]https://twitter.com/TheKoroks/status/1477147629427433472?s=20&t=67Yr65osvtxvFD8Voud8vQ)
 
-- _Shrine::JaBaij:
-    comment: Clip in
+- _Shrine::JaBaij
 
-- _Npc<Old Man 1>:
-    icon: king
-    coord: [-461.70, 178.41, 1990.18]
-    comment: Text options 2-1-1-2
-
-- .dir(BLSS)
+- BLSS
 - _Tower::GreatPlateau
 
-- _Npc<Old Man 2>:
-    icon: king
-    coord: [-572.50, 178.89, 1696.50]
-    comment: Glitched cutscene
-    var-change:
-        MainQuest: 1
-    notes: .v(MainQuest)/14 complete
-
-- .dir(BLSS):
+- BLSS:
     comment: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=521)
 
-- _Material<Ruby,1>:
+- _Chest<1 Ruby>:
     coord: [-671.65, 171.79, 1522.61]
 
-- _Shrine::OmanAu
+- _Shrine::OmanAu:
+    comment: HAMMER
 
-- .dir(BLSS)
-- .loc(Tree):
-    coord: [-839,2273.5]
+- _Material<5 Hyrule Herb>:
+    coord: [-709.74, 171.46, 1481.88]
 
-- .dir(Tree WB)
-- _Shrine::OwaDaim:
-    comment: IRON SLEDGEHAMMER
-    notes: Keep Boko Spear for blue flame smuggling.
+- BLSS
 
-- .dir(Boulder Launch + BLSS):
-    notes: 3 hits with hammer.
+- _Material<2 Apple>:
+    coord: [-856.45, 192.73, 2274.48]
+
+- .dir(.W)
+- _Shrine::OwaDaim
+
 - _Shrine::KehNamut
 
-- .dir(BLSS)
+- BLSS
 - _Npc<Paraglider>:
     icon: king
     coord: [-812, 1966.1012189378007]
     split-type: UserDefined
-    var-change:
-        MainQuest: 1
-    notes: .v(MainQuest)/14 complete

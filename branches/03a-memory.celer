@@ -1,43 +1,35 @@
 Memories:
-- .dir(BLSS):
-    notes: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=2811)
+- .dir(S>) + .dir(S) -> BLSS
+- .loc(Castle Balcony)
+- _Chest<3 Ancient Arrows>:
+    coord: [-254.00, 209.67, -742.37]
+- _Equipment::Bow<Royal Bow>:
+    hide-icon-on-map: true
 
-- _Memory::IrchPlain:
-    line-color: rgb(255, 178, 102)
-
-- .dir(BLSS + wb) to bridge
-
+- .dir(<W) + .dir(N)
 - _Memory::HyruleCastle
 
-- _Equipment::Weapon<Edge of Duality>:
-    notes: Kill Moblin with GEB and ice arrows. MUST SAVE 2 FOR BTBS.
-    coord: [-311.81, 256.46, -997.30]
+- BLSS
+- _Memory::IrchPlain
 
-- _Equipment::Bow<Royal Guard's Bow>:
-    notes: And 5 arrows.
-
-- .dir(BLSS)
-
+- BLSS
 - _Memory::SacredGrounds
 
-- .dir(E> super) to hill
-- .dir(E>> turn)
-
+- .dir(E>) + .dir(E>)
 - _Memory::HyruleField
 
-- .dir(S> + BLSS)
-
+- .dir(S.) -> BLSS
 - _Memory::WestNecluda
 
-- .dir(BLSS)
-
+- BLSS
 - _Memory::LakeKolomo
 
-- .dir(BLSS) to edge of river:
-    notes: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=3438)
-
-- .dir(<N + W> midair)
-
+- BLSS -> .dir(<N) + .dir(W>)
 - _Memory::SanidinPark
 
-- _Warp::Shrine::KehNamut
+- .dir(NW)
+- _Material<10+ Hyrule Herb>:
+    coord: [-1848.40, 269.02, 356.94]
+
+- .dir(N) + .dir(E) -> BLSS
+- _Memory::AncientColumns

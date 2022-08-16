@@ -1,20 +1,5 @@
 Vah Medoh:
-- Elevator .dir(BLSS)
-
-- _Material<Diamond>:
-    line-color: rgb(0,255,0)
-    coord: [-2247.90, 353.39, 662.05]
-
-- .dir(N>)
-
-- _Material<Hearty Durian,10>:
-    coord: [-2190.5,441]
-
-- .dir(BLSS)
-
-- _Memory::AncientColumns
-
-- .dir(BLSS)
+- BLSS
 
 - _Npc::Rito<Kaneli>:
     coord: [-3627.20, 323.57, -1830.81]
@@ -23,50 +8,52 @@ Vah Medoh:
     coord: [-3606.64, 323.62, -1823.03]
     comment: Revali memory
 
-- _Shop<4 Sunshroom>:
-    coord: [-3643.01, 290.64, -1823.43]
-    var-change:
-        Rupee: -64
-    notes: .v(Rupee) rupees.
+- .!!(IST)
 
-- .dir(<N turn super)
+# - _Shop<4 Sunshroom>:
+#     coord: [-3643.01, 290.64, -1823.43]
+#     var-change:
+#         Rupee: -64
+#     notes: .v(Rupee) rupees.
 
-- _Cook<Spicy Mushroom Skewer>:
-    coord: [-3792.60, 267.34, -2319.19]
-    comment: 4 Sunshroom
+# - .dir(<N turn super)
 
-- _Material<Arrow,10>
+# - _Cook<Spicy Mushroom Skewer>:
+#     coord: [-3792.60, 267.34, -2319.19]
+#     comment: 4 Sunshroom
 
-- _Npc::Rito<Teba>:
-    coord: [-3798.52, 267.35, -2314.14]
+# - _Material<Arrow,10>
 
-- _Chest<Falcon Bow>
+# - _Npc::Rito<Teba>:
+#     coord: [-3798.52, 267.35, -2314.14]
 
-- .dir(Enter Medoh):
-    icon: medoh-enter
-    var-change:
-        Arrow: -5
-        BombArrow: -8
-    split-type: UserDefined
+# - _Chest<Falcon Bow>
 
-- _Material<Ancient Core,1>
+# - .dir(Enter Medoh):
+#     icon: medoh-enter
+#     var-change:
+#         Arrow: -5
+#         BombArrow: -8
+#     split-type: UserDefined
 
-- _Material<Ice Arrow,10>
+# - _Material<Ancient Core,1>
 
-- .boss(Windblight):
-    icon: calamity
+# - _Material<Ice Arrow,10>
 
-- Revali's Gale:
-    icon: medoh-done
-    movements:
-        - to: [-3565.625,-1817.375]
-          warp: true
-    split-type: UserDefined
+# - .boss(Windblight):
+#     icon: calamity
 
-- _Npc<Kaneli>:
-    coord: [-3627.20, 323.57, -1830.81]
-    var-change:
-        MainQuest: 1
-    notes: .v(MainQuest)/14 complete
+# - Revali's Gale:
+#     icon: medoh-done
+#     movements:
+#         - to: [-3565.625,-1817.375]
+#           warp: true
+#     split-type: UserDefined
 
-- _Chest::Special<Great Eagle Bow>
+# - _Npc<Kaneli>:
+#     coord: [-3627.20, 323.57, -1830.81]
+#     var-change:
+#         MainQuest: 1
+#     notes: .v(MainQuest)/14 complete
+
+# - _Chest::Special<Great Eagle Bow>
