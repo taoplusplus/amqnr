@@ -64,8 +64,3 @@ Kakteno:
     hide-icon-on-map: true
 - _Snap::Quest<Great Fairy Fountain>:
     coord: [1976.00, 267.50, 846.00]
-
-- .dir(W.) up -> BLSS:
-    coord: [1871.5,810.5]
-
-- _Memory::LanayruRoad

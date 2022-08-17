@@ -1,0 +1,72 @@
+Memories A:
+- _Warp::Tower::GreatPlateau
+- _Memory::SanidinPark
+- _Memory::IrchPlain
+- _Memory::HyruleCastle
+- _Chest<3 Ancient Arrows>:
+    coord: [-254.00, 209.67, -742.37]
+- _Memory::SacredGrounds
+- _Memory::HyruleField
+- _Memory::WestNecluda
+- _Memory::LakeKolomo
+- _Warp::Shrine::KehNamut
+- _Memory::AncientColumns
+
+Memories B:
+- _Memory::HyruleCastle
+- _Memory::IrchPlain
+- _Chest<3 Ancient Arrows>:
+    coord: [-254.00, 209.67, -742.37]
+- _Memory::SacredGrounds
+- _Memory::HyruleField
+- _Memory::WestNecluda
+- _Memory::LakeKolomo
+- _Memory::SanidinPark
+- _Memory::AncientColumns
+
+Memories:
+- .dir(W.) up -> BLSS:
+    coord: [1871.5,810.5]
+- _Memory::LanayruRoad
+
+- .dir(.W) -> BLSS:
+    coord: [3439.15, 317.13, 1100.78]
+- _Memory::SpringofPower
+
+- WARP
+- _Warp::Shrine::KehNamut:
+    line-color: lime
+
+- BLSS
+- _Memory::HyruleCastle
+
+- BLSS
+- _Memory::IrchPlain
+
+- BLSS
+- _Chest<3 Ancient Arrows>:
+    coord: [-254.00, 209.67, -742.37]
+- _Equipment::Bow<Royal Bow>:
+    hide-icon-on-map: true
+
+- .dir(S)
+- _Memory::SacredGrounds
+
+- .dir(E>) + .dir(E>)
+- _Memory::HyruleField
+
+- .dir(S.) -> BLSS
+- _Memory::WestNecluda
+
+- BLSS
+- _Memory::LakeKolomo
+
+- BLSS -> .dir(<N) + .dir(W>)
+- _Memory::SanidinPark
+
+- .dir(<<N)
+- _Material<10+ Hyrule Herb>:
+    coord: [-1848.40, 269.02, 356.94]
+
+- .dir(N) + .dir(E) -> BLSS
+- _Memory::AncientColumns
