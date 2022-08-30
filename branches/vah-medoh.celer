@@ -26,10 +26,12 @@ Vah Medoh:
     coord: [-3620.00, 739.95, -2110.00]
 
 - Complete Divine Beast
-- _Chest<10 Ice Arrow>
+- _Chest<10 Ice Arrow>:
+    hide-icon-on-map: true
 - .boss(Windblight):
     icon: calamity
     comment: Attack up, Royal Bow
+    hide-icon-on-map: true
 
 - Revali's Gale:
     icon: medoh-done
@@ -41,8 +43,10 @@ Vah Medoh:
 
 - _Npc<Kaneli>:
     coord: [-3627.20, 323.57, -1830.81]
+    hide-icon-on-map: true
 
-- _Chest::Special<Great Eagle Bow>
+- _Chest::Special<Great Eagle Bow>:
+    hide-icon-on-map: true
 
 - WARP
 - _Warp::Shrine::KehNamut:
