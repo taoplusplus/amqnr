@@ -40,19 +40,19 @@ Plateau:
 - _Chest<1 Ruby>:
     coord: [-671.65, 171.79, 1522.61]
 
-- _Shrine::OmanAu:
-    comment: HAMMER
+- _Shrine::OmanAu
 
-- _Material<5 Hyrule Herb>:
-    coord: [-709.74, 171.46, 1481.88]
+# - _Material<5 Hyrule Herb>:
+#     coord: [-709.74, 171.46, 1481.88]
 
-- BLSS
+- BLSS -> .dir(.W)
 
-- _Material<2 Apple>:
-    coord: [-856.45, 192.73, 2274.48]
+# - _Material<2 Apple>:
+#     coord: [-856.45, 192.73, 2274.48]
 
-- .dir(.W)
-- _Shrine::OwaDaim
+# - .dir(.W)
+- _Shrine::OwaDaim:
+    comment: Get Hammer
 
 - _Shrine::KehNamut
 

@@ -1,7 +1,7 @@
 Kakteno:
 - BLSS
-- _Npc::SheikaFemale<Skip Paya, talk to Impa>:
-    line-color: rgb(221,160,221)
+- _Npc::SheikaFemale<Skip Paya, Impa 1>:
+    # line-color: rgb(221,160,221)
     movements:
         - to: [1784.43, 228.91, 986.46]
         - to: [1772.71, 229.43, 984.31]

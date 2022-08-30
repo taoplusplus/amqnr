@@ -26,7 +26,7 @@ Vah Medoh:
     coord: [-3620.00, 739.95, -2110.00]
 
 - Complete Divine Beast
-- _Chest<Ice Arrow,10>
+- _Chest<10 Ice Arrow>
 - .boss(Windblight):
     icon: calamity
     comment: Attack up, Royal Bow
@@ -41,9 +41,6 @@ Vah Medoh:
 
 - _Npc<Kaneli>:
     coord: [-3627.20, 323.57, -1830.81]
-    var-change:
-        MainQuest: 1
-    notes: .v(MainQuest)/14 complete
 
 - _Chest::Special<Great Eagle Bow>
 

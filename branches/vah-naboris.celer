@@ -18,7 +18,8 @@ Vah Naboris:
     comment: Buy clothes
 
 - .dir(<W)
-- _Shop<Buy 30 Shock Arrows>
+- _Shop<Buy 30 Shock Arrows>:
+    hide-icon-on-map: true
 
 - _Npc::Gerudo<Riju>:
     coord: [-3892.04, 157.48, 2968.14]

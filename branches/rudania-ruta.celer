@@ -27,8 +27,8 @@ Rudania and Ruta:
 - Snipe 2 moblins:
     icon: calamity
     hide-icon-on-map: true
-- _Npc::Goron<Yunobo>:
-    coord: [2142.43, 634.02, -2288.29]
+# - _Npc::Goron<Yunobo>:
+#     coord: [2142.43, 634.02, -2288.29]
 
 - BLSS
 - _Npc::ZoraMale<King Dorephan>:
