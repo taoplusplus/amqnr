@@ -1,4 +1,57 @@
-Memories A:
+Memories:
+- .dir(W.) up -> BLSS:
+    coord: [1871.5,810.5]
+- _Memory::LanayruRoad
+
+- .dir(.W) -> BLSS:
+    coord: [3439.15, 317.13, 1100.78]
+    notes: To race korok
+- _Memory::SpringofPower
+
+- WARP
+- _Warp::Tower::GreatPlateau:
+    line-color: lime
+
+- BLSS
+- _Chest<3 Ancient Arrows>:
+    coord: [-254.00, 209.67, -742.37]
+- _Equipment::Bow<Royal Bow>:
+    hide-icon-on-map: true
+    comment: Get 5 Normal Arrow
+
+- .dir(E) + .dir(N)
+- _Memory::HyruleCastle
+
+- .dir(N.) -> BLSS to .loc(Deku Tree)
+- .!!(IST)
+- Sell 510 Fairy
+- _Equipment::Weapon<Master Sword>:
+    coord: [431.66, 250.53, -2111.00]
+    split-type: UserDefined
+
+- .dir(.W) + .dir(S>) -> BLSS
+- _Memory::IrchPlain
+
+- BLSS
+- _Memory::SacredGrounds
+
+- .dir(E>) + .dir(E>)
+- _Memory::HyruleField
+
+- .dir(S.) -> BLSS
+- _Memory::WestNecluda
+
+- BLSS
+- _Memory::LakeKolomo
+
+- BLSS -> .dir(.N) + .dir(W)
+- _Memory::SanidinPark
+
+- .dir(<<N) + .dir(N) + .dir(E) -> BLSS:
+    coord: [-1848.40, 269.02, 356.94]
+- _Memory::AncientColumns
+
+Memories B:
 - _Warp::Tower::GreatPlateau
 - _Memory::SanidinPark
 - _Memory::IrchPlain
@@ -12,7 +65,7 @@ Memories A:
 - _Warp::Shrine::KehNamut
 - _Memory::AncientColumns
 
-Memories B:
+Memories C:
 - _Memory::HyruleCastle
 - _Memory::IrchPlain
 - _Chest<3 Ancient Arrows>:
@@ -22,51 +75,4 @@ Memories B:
 - _Memory::WestNecluda
 - _Memory::LakeKolomo
 - _Memory::SanidinPark
-- _Memory::AncientColumns
-
-Memories:
-- .dir(W.) up -> BLSS:
-    coord: [1871.5,810.5]
-- _Memory::LanayruRoad
-
-- .dir(.W) -> BLSS:
-    coord: [3439.15, 317.13, 1100.78]
-- _Memory::SpringofPower
-
-- WARP
-- _Warp::Shrine::KehNamut:
-    line-color: lime
-
-- BLSS
-- _Memory::HyruleCastle
-
-- BLSS
-- _Memory::IrchPlain
-
-- BLSS
-- _Chest<3 Ancient Arrows>:
-    coord: [-254.00, 209.67, -742.37]
-- _Equipment::Bow<Royal Bow>:
-    hide-icon-on-map: true
-
-- .dir(S)
-- _Memory::SacredGrounds
-
-- .dir(E>) + .dir(E>)
-- _Memory::HyruleField
-
-- .dir(S.) -> BLSS
-- _Memory::WestNecluda
-
-- BLSS
-- _Memory::LakeKolomo
-
-- BLSS -> .dir(<N) + .dir(W>)
-- _Memory::SanidinPark
-
-- .dir(<<N)
-- _Material<10+ Hyrule Herb>:
-    coord: [-1848.40, 269.02, 356.94]
-
-- .dir(N) + .dir(E) -> BLSS
 - _Memory::AncientColumns

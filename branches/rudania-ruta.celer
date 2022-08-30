@@ -1,0 +1,93 @@
+Rudania and Ruta:
+- BLSS
+- _Memory::EldinCanyon
+
+- BLSS + WB:
+    comment: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=5258)
+- _Npc::Goron<Bludo>:
+    coord: [1713.95, 498.05, -2446.92]
+
+- .dir(N>) + .dir(<N)
+- _Npc::Goron<Yunobo>:
+    coord: [1630.68, 560.52, -2941.37]
+    notes: .link([Clip]https://youtu.be/6H7DROMaXQU?t=3419)
+
+- .dir(<S)
+- _Npc::Goron<Bludo>:
+    coord: [1713.95, 498.05, -2446.92]
+    comment: Daruk memory
+
+- .dir(S) + .dir(E)
+- Activate Daqa Koh:
+   icon: shrine
+   coord: [2041.40, 603.06, -2329.10]
+
+- .gale():
+    gale: 1
+- Snipe 2 moblins:
+    icon: calamity
+    hide-icon-on-map: true
+- _Npc::Goron<Yunobo>:
+    coord: [2142.43, 634.02, -2288.29]
+
+- BLSS
+- _Npc::ZoraMale<King Dorephan>:
+    line-color: dodgerblue
+    coord: [3338.31, 268.90, -551.60]
+
+- .dir(E) + .dir(E)
+- _Npc::ZoraMale<Sidon>:
+    coord: [3598.55, 316.00, -330.31]
+
+- Shoot 4 targets
+- Enter Ruta:
+    icon: ruta-enter
+    coord: [3662.40, 315.66, -175.42]
+    time-override: 999
+    split-type: UserDefined
+
+- Complete Divine Beast
+- Mipha's Grace:
+    icon: ruta-done
+    movements:
+        - to: [3283.5,-431]
+          warp: true
+    split-type: UserDefined
+
+- .dir(N>)
+- _Npc::ZoraMale<King Dorephan>:
+    line-color: red
+    coord: [3338.31, 268.90, -551.60]
+
+- WARP
+- _Warp::Shrine::DaqaKoh
+
+- .dir(E)
+- Enter Rudania:
+    icon: rudania-enter
+    movements:
+        - to: [2235,-2370]
+        - to: [2502.61, 667.95, -2270.26]
+        - to: [2701.02, 726.21, -2363.06]
+        - to: [2794.50, 774.84, -2657.93]
+    split-type: UserDefined
+
+- Complete Divine Beast
+- .boss(Fireblight):
+    icon: calamity
+    hide-icon-on-map: true
+
+- Daruk's Protection:
+    icon: rudania-done
+    movements:
+        - to: [1572.5,-2422.5]
+          warp: true
+    split-type: UserDefined
+
+- .dir(E)
+- _Npc::Goron<Bludo>:
+    coord: [1713.95, 498.05, -2446.92]
+    line-color: white
+
+- WARP
+- _Warp::Shrine::TalohNaeg

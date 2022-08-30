@@ -1,59 +1,52 @@
 Vah Medoh:
 - BLSS
-
 - _Npc::Rito<Kaneli>:
     coord: [-3627.20, 323.57, -1830.81]
 
+- Run
 - _Npc::Rito<Saki>:
     coord: [-3606.64, 323.62, -1823.03]
     comment: Revali memory
 
-- .!!(IST)
+- .dir(<N)
+- _Npc::Rito<Teba>:
+    coord: [-3798.52, 267.35, -2314.14]
+    comment: Get 10 Normal Arrow
 
-# - _Shop<4 Sunshroom>:
-#     coord: [-3643.01, 290.64, -1823.43]
-#     var-change:
-#         Rupee: -64
-#     notes: .v(Rupee) rupees.
+- Shoot 5 targets:
+    comment: Royal Bow
+- _Chest<Falcon Bow>:
+    hide-icon-on-map: true
 
-# - .dir(<N turn super)
+- Shoot 4 cannons:
+    comment: Falcon Bow, 1 Ancient Arrow each
+- .dir(Enter Medoh):
+    icon: medoh-enter
+    split-type: UserDefined
+    coord: [-3620.00, 739.95, -2110.00]
 
-# - _Cook<Spicy Mushroom Skewer>:
-#     coord: [-3792.60, 267.34, -2319.19]
-#     comment: 4 Sunshroom
+- Complete Divine Beast
+- _Chest<Ice Arrow,10>
+- .boss(Windblight):
+    icon: calamity
+    comment: Attack up, Royal Bow
 
-# - _Material<Arrow,10>
+- Revali's Gale:
+    icon: medoh-done
+    movements:
+        - to: [-3565.625,-1817.375]
+          warp: true
+    split-type: UserDefined
+    line-color: yellow
 
-# - _Npc::Rito<Teba>:
-#     coord: [-3798.52, 267.35, -2314.14]
+- _Npc<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+    var-change:
+        MainQuest: 1
+    notes: .v(MainQuest)/14 complete
 
-# - _Chest<Falcon Bow>
+- _Chest::Special<Great Eagle Bow>
 
-# - .dir(Enter Medoh):
-#     icon: medoh-enter
-#     var-change:
-#         Arrow: -5
-#         BombArrow: -8
-#     split-type: UserDefined
-
-# - _Material<Ancient Core,1>
-
-# - _Material<Ice Arrow,10>
-
-# - .boss(Windblight):
-#     icon: calamity
-
-# - Revali's Gale:
-#     icon: medoh-done
-#     movements:
-#         - to: [-3565.625,-1817.375]
-#           warp: true
-#     split-type: UserDefined
-
-# - _Npc<Kaneli>:
-#     coord: [-3627.20, 323.57, -1830.81]
-#     var-change:
-#         MainQuest: 1
-#     notes: .v(MainQuest)/14 complete
-
-# - _Chest::Special<Great Eagle Bow>
+- WARP
+- _Warp::Shrine::KehNamut:
+    line-color: yellow

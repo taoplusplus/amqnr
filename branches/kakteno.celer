@@ -6,9 +6,6 @@ Kakteno:
         - to: [1784.43, 228.91, 986.46]
         - to: [1772.71, 229.43, 984.31]
 
-# - _Equipment::Shield<Pot Lid>:
-#     coord: [1800.25, 219.63, 1012.57]
-
 - _Shop<Sell Ruby>:
     coord: [1792.02, 222.40, 1028.39]
     comment: Buy coward eggs
@@ -33,9 +30,6 @@ Kakteno:
         - to: [3783,2106.5]
     comment: Don't throw away spear
 
-- _Material<2 Apple>:
-    hide-icon-on-map: true
-
 - _Equipment::Weapon<Torch>:
     hide-icon-on-map: true
     comment: Inside tech lab
@@ -51,16 +45,12 @@ Kakteno:
 - WARP
 - _Warp::Shrine::TalohNaeg
 
-# - _Npc<Goddess Statue>:
-#     coord: [1840.12, 218.54, 997.89]
-#     comment: +1 heart
-
 - _Npc::SheikaFemale<Impa 2>:
     line-color: rgb(255,0,255)
     coord: [1772.71, 229.43, 984.31]
 
 - .dir(<E)
-- _Material<4 Fairy>:
+- _Material<3 Fairy>:
     hide-icon-on-map: true
 - _Snap::Quest<Great Fairy Fountain>:
     coord: [1976.00, 267.50, 846.00]

@@ -11,7 +11,6 @@ Plateau:
     hide-icon-on-map: true
 
 - +_Material<6 Spicy Pepper>:
-    line-color: rgb(204,204,204)
     coord: [-965.30, 238.52, 1956.67]
 
 - +_Material<4 Hylian Shroom>:

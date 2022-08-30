@@ -1,0 +1,84 @@
+Vah Naboris:
+- BLSS
+- _Npc::SheikaMale<Benja>:
+    coord: [-3804.64, 149.50, 2818.36]
+    line-color: rgb(255,255,0)
+
+- Activate Daqo Chisay:
+    icon: shrine
+    # hide-icon-on-map: true
+    coord: [-3816.5,2818.5]
+
+- .dir(<E)
+- _Memory::KaraKaraBazaar
+
+- .dir(S.)
+- _Npc<Vilia>:
+    coord: [-3259.27, 163.93, 2611.54]
+    comment: Buy clothes
+
+- .dir(<W)
+- _Shop<Buy 30 Shock Arrows>
+
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: In throne room
+
+- .dir(<N) + 2 BTBs:
+    movements:
+        - to: [-4132.90, 159.34, 2598.46]
+        - to: [-3778.90, 326.03, 1855.20]
+
+- Clip in to Yiga Hideout
+- _Equipment::Bow<Duplex Bow>:
+    coord: [-3510.46, 442.51, 1297.31]
+
+- .boss(Kohga):
+    icon: calamity
+    split-type: UserDefined
+    hide-icon-on-map: true
+
+- _Chest::Special<Thunderhelm>:
+    coord: [-3451.00, 440.69, 1331.50]
+    split-type: UserDefined
+
+- WARP
+- _Warp::Shrine::DaqoChisay
+
+- .dir(S>) to balcony
+- _Npc<Riju>:
+    coord: [-3868.85, 166.67, 2948.96]
+    comment: Urbosa memory
+
+- .dir(W>) to outpost
+- _Npc<Riju>:
+    coord: [-3420.68, 189.82, 3118.97]
+
+- Ride seal, shoot feet
+- Enter Naboris:
+    icon: naboris-enter
+    coord: [-2754.62, 112.53, 3749.44]
+    split-type: UserDefined
+
+- Complete Divine Beast
+- .gale():
+    gale: 2
+- .boss(Thunderblight):
+    icon: calamity
+    hide-icon-on-map: true
+
+- Urbosa's Fury:
+    icon: naboris-done
+    movements:
+        - to: [-3772,2851]
+          warp: true
+    split-type: UserDefined
+
+- Climb -> WB
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: In throne room
+    line-color: tomato
+
+- WARP
+- _Warp::VahNaboris

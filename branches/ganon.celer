@@ -1,0 +1,27 @@
+Ganon:
+- _Npc::SheikaFemale<Impa 3>:
+    coord: [1772.71, 229.43, 984.31]
+    comment: Champion's Tunic
+
+- _Npc<Pikango>:
+    coord: [1828.22, 218.59, 990.14]
+    comment: Find the Fairy Fountain
+
+- .dir(N) + .dir(S.) + .dir(<S)
+- _Memory::AshSwamp
+
+- WARP
+- _Warp::Shrine::KehNamut:
+    line-color: orange
+
+- BLSS
+- .boss(Calamity Ganon):
+    icon: ganon
+    coord: [-254.00, 191.01, -1061.37]
+    comment: Fight
+    split-type: UserDefined
+
+- .boss(Dark Beast Ganon):
+    icon: ganon
+    split-type: UserDefined
+    hide-icon-on-map: true

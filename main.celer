@@ -15,14 +15,9 @@ _route:
       - __use__ Memories
   - Vah Medoh:
       - __use__ Vah Medoh
-  - The Rest:
-      - Do everything else
-      - Get 6 hearts in Korok Forest
-  # - Vah Naboris:
-  #     - __use__ Vah Naboris
-  # - Vah Rudania:
-  #     - __use__ Vah Rudania
-  # - Vah Ruta:
-  #     - __use__ Vah Ruta
-  # - Cleanup:
-  #     - __use__ Ganon
+  - Vah Naboris:
+      - __use__ Vah Naboris
+  - Rudania and Ruta:
+      - __use__ Rudania and Ruta
+  - Ganon:
+      - __use__ Ganon
