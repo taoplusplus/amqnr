@@ -15,13 +15,14 @@ _route:
       - __use__ Memories
   - Vah Medoh:
       - __use__ Vah Medoh
-  - Naboris Start:
+  - Vah Naboris:
       - __use__ Naboris Start
+      - __use__ Naboris End
   - Vah Rudania:
       - __use__ Vah Rudania
   - Vah Ruta:
       - __use__ Vah Ruta
-  - Naboris End:
-      - __use__ Naboris End
+  # - Naboris End:
+  #     - __use__ Naboris End
   - Ganon:
       - __use__ Ganon

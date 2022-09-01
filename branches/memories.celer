@@ -22,7 +22,12 @@ Memories:
 - .dir(E) + .dir(N)
 - _Memory::HyruleCastle
 
-- .dir(N.) -> BLSS to .loc(Deku Tree)
+- .dir(N.) -> BLSS
+- Activate Keo Ruug:
+    icon: shrine
+    coord: [471,-2169]
+    
+- Run to .loc(Deku Tree)
 - .!!(IST):
     icon: tots
     hide-icon-on-map: true

@@ -11,10 +11,10 @@ Ganon:
 - _Memory::AshSwamp
 
 - WARP
-- _Warp::Shrine::KehNamut:
+- _Warp::Shrine::KeoRuug:
     line-color: orange
 
-- BLSS
+- .dir(<W) + .dir(S>) + .dir(S) + .dir(S>)
 - .boss(Calamity Ganon):
     icon: ganon
     coord: [-254.00, 191.01, -1061.37]

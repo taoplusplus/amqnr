@@ -13,6 +13,9 @@ Plateau:
 - +_Material<6 Spicy Pepper>:
     coord: [-965.30, 238.52, 1956.67]
 
+- +_Material<Seared Steak>:
+    hide-icon-on-map: true
+
 - +_Material<4 Hylian Shroom>:
     hide-icon-on-map: true
 
