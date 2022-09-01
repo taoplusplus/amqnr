@@ -1,4 +1,4 @@
-Vah Naboris:
+Naboris Start:
 - BLSS
 - _Npc::SheikaMale<Benja>:
     coord: [-3804.64, 149.50, 2818.36]
@@ -36,16 +36,14 @@ Vah Naboris:
 
 - .boss(Kohga):
     icon: calamity
-    split-type: UserDefined
     hide-icon-on-map: true
 
 - _Chest::Special<Thunderhelm>:
     coord: [-3451.00, 440.69, 1331.50]
     split-type: UserDefined
 
-- WARP
-- _Warp::Shrine::DaqoChisay
-
+Naboris End:
+- Equip Gerudo Top
 - .dir(S>) to balcony
 - _Npc<Riju>:
     coord: [-3868.85, 166.67, 2948.96]
@@ -79,7 +77,7 @@ Vah Naboris:
 - _Npc::Gerudo<Riju>:
     coord: [-3892.04, 157.48, 2968.14]
     comment: In throne room
-    line-color: tomato
+    line-color: orange
 
 - WARP
-- _Warp::VahNaboris
+- _Warp::Shrine::TalohNaeg

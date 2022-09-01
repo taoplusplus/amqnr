@@ -15,9 +15,13 @@ _route:
       - __use__ Memories
   - Vah Medoh:
       - __use__ Vah Medoh
-  - Vah Naboris:
-      - __use__ Vah Naboris
-  - Rudania and Ruta:
-      - __use__ Rudania and Ruta
+  - Naboris Start:
+      - __use__ Naboris Start
+  - Vah Rudania:
+      - __use__ Vah Rudania
+  - Vah Ruta:
+      - __use__ Vah Ruta
+  - Naboris End:
+      - __use__ Naboris End
   - Ganon:
       - __use__ Ganon
