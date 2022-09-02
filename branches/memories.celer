@@ -9,8 +9,7 @@ Memories:
 - _Memory::SpringofPower
 
 - WARP
-- _Warp::Tower::GreatPlateau:
-    line-color: lime
+- _Warp::Tower::GreatPlateau
 
 - BLSS
 - _Chest<3 Ancient Arrows>:

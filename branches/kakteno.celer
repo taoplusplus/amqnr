@@ -43,10 +43,10 @@ Kakteno:
     coord: [3774.95, 357.00, 2126.02]
 
 - WARP
-- _Warp::Shrine::TalohNaeg
+- _Warp::Shrine::TalohNaeg:
+    line-color: lime
 
 - _Npc::SheikaFemale<Impa 2>:
-    line-color: rgb(255,0,255)
     coord: [1772.71, 229.43, 984.31]
 
 - .dir(<E)

@@ -7,12 +7,12 @@ Ganon:
     coord: [1828.22, 218.59, 990.14]
     comment: Find the Fairy Fountain
 
-- .dir(N) + .dir(S.) + .dir(<S)
+- .gale() + .dir(S.) + .dir(<S):
+    gale: 1
 - _Memory::AshSwamp
 
 - WARP
-- _Warp::Shrine::KeoRuug:
-    line-color: orange
+- _Warp::Shrine::KeoRuug
 
 - .dir(<W) + .dir(S>) + .dir(S) + .dir(S>)
 - .boss(Calamity Ganon):

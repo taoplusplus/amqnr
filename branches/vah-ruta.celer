@@ -24,7 +24,7 @@ Vah Ruta:
 
 - .dir(N>)
 - _Npc::ZoraMale<King Dorephan>:
-    line-color: red
+    line-color: violet
     coord: [3338.31, 268.90, -551.60]
 
 - WARP
