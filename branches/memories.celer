@@ -1,43 +1,33 @@
 Memories:
-- .dir(BLSS):
+- BLSS:
     notes: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=2811)
+- _Memory::IrchPlain
 
-- _Memory::IrchPlain:
-    line-color: rgb(255, 178, 102)
-
-- .dir(BLSS + wb) to bridge
-
+- BLSS -> WB
 - _Memory::HyruleCastle
-
 - _Equipment::Weapon<Edge of Duality>:
     notes: Kill Moblin with GEB and ice arrows. MUST SAVE 2 FOR BTBS.
     coord: [-311.81, 256.46, -997.30]
-
 - _Equipment::Bow<Royal Guard's Bow>:
     notes: And 5 arrows.
+    hide-icon-on-map: true
 
-- .dir(BLSS)
-
+- BLSS
 - _Memory::SacredGrounds
 
-- .dir(E> super) to hill
-- .dir(E>> turn)
-
+- BLSS
 - _Memory::HyruleField
 
-- .dir(S> + BLSS)
-
+- .dir(S>) -> BLSS
 - _Memory::WestNecluda
 
-- .dir(BLSS)
-
+- BLSS
 - _Memory::LakeKolomo
 
-- .dir(BLSS) to edge of river:
+- BLSS -> .dir(.N) + .dir(W):
     notes: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=3438)
-
-- .dir(<N + W> midair)
-
 - _Memory::SanidinPark
 
-- _Warp::Shrine::KehNamut
+- WARP
+- _Warp::Shrine::KehNamut:
+    line-color: gold

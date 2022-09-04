@@ -1,60 +1,59 @@
 Vah Medoh:
-- Elevator .dir(BLSS)
-
+- BLSS
 - _Material<Diamond>:
-    line-color: rgb(0,255,0)
     coord: [-2247.90, 353.39, 662.05]
 
 - .dir(N>)
-
 - _Material<Hearty Durian,10>:
     coord: [-2190.5,441]
 
-- .dir(BLSS)
-
+- BLSS
 - _Memory::AncientColumns
 
-- .dir(BLSS)
-
+- BLSS
 - _Npc::Rito<Kaneli>:
     coord: [-3627.20, 323.57, -1830.81]
-
 - _Npc::Rito<Saki>:
     coord: [-3606.64, 323.62, -1823.03]
-    comment: Revali memory
+    comment: Revali Memory
 
-- _Shop<4 Sunshroom>:
+- _Shop<Buy 4 Sunshroom>:
     coord: [-3643.01, 290.64, -1823.43]
     var-change:
         Rupee: -64
     notes: .v(Rupee) rupees.
+- _Shop<Sell Diamond>:
+    hide-icon-on-map: true
+    var-change:
+        Rupee: 500
+    notes: .v(Rupee) rupees.
 
-- .dir(<N turn super)
-
-- _Cook<Spicy Mushroom Skewer>:
+- .dir(<N)
+- _Cook<Cook Mushroom Skewer>:
     coord: [-3792.60, 267.34, -2319.19]
     comment: 4 Sunshroom
-
-- _Material<Arrow,10>
-
+- 10 Normal Arrow
 - _Npc::Rito<Teba>:
     coord: [-3798.52, 267.35, -2314.14]
+- Shoot 5 targets
+- _Chest<Falcon Bow>:
+    hide-icon-on-map: true
+- Shoot 4 cannons
 
-- _Chest<Falcon Bow>
-
-- .dir(Enter Medoh):
+- Enter Medoh:
     icon: medoh-enter
     var-change:
         Arrow: -5
         BombArrow: -8
     split-type: UserDefined
+    coord: [-3620.00, 739.95, -2110.00]
 
-- _Material<Ancient Core,1>
-
-- _Material<Ice Arrow,10>
-
+- Complete Divine Beast
+- _Material<Ice Arrow,10>:
+    hide-icon-on-map: true
 - .boss(Windblight):
     icon: calamity
+    hide-icon-on-map: true
 
 - Revali's Gale:
     icon: medoh-done
@@ -62,11 +61,8 @@ Vah Medoh:
         - to: [-3565.625,-1817.375]
           warp: true
     split-type: UserDefined
-
+    line-color: plum
 - _Npc<Kaneli>:
     coord: [-3627.20, 323.57, -1830.81]
-    var-change:
-        MainQuest: 1
-    notes: .v(MainQuest)/14 complete
-
-- _Chest::Special<Great Eagle Bow>
+- _Chest::Special<Great Eagle Bow>:
+    hide-icon-on-map: true

@@ -7,10 +7,11 @@ _project:
   url: ""
   version: 0.1.0
 _route:
+  - (==) This is the current (2022-04-29) wr run by .link([Player5]https://www.speedrun.com/user/Player5), .link([video link]https://youtu.be/nnlz4Cu7d5Y)
   - Plateau:
       - __use__ Plateau
-  - Kakteno:
-      - __use__ Kakteno
+  - Camera:
+      - __use__ Camera
   - Vah Medoh:
       - __use__ Vah Medoh
   - Memories:
