@@ -33,6 +33,7 @@ Memories:
     notes: .link([IST Sim commands]https://pastebin.com/XFdNjaQ3)
 - _Shop<Sell 510 Fairy>:
     hide-icon-on-map: true
+- Turn in 40 Spirit Orbs
 - _Equipment::Weapon<Master Sword>:
     coord: [431.66, 250.53, -2111.00]
     split-type: UserDefined
