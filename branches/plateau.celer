@@ -37,8 +37,7 @@ Plateau:
 - BLSS
 - _Tower::GreatPlateau
 
-- BLSS:
-    comment: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=521)
+- Jump down -> BLSS
 
 - _Chest<1 Ruby>:
     coord: [-671.65, 171.79, 1522.61]

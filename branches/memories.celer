@@ -18,7 +18,7 @@ Memories:
     hide-icon-on-map: true
     comment: Get 5 Normal Arrow
 
-- .dir(E) + .dir(N)
+- Climb -> .dir(<N)
 - _Memory::HyruleCastle
 
 - .dir(N.) -> BLSS
@@ -27,6 +27,8 @@ Memories:
     coord: [471,-2169]
     
 - Run to .loc(Deku Tree)
+- _Material<3+ Silent Princess>:
+    hide-icon-on-map: true
 - .!!(IST):
     icon: tots
     hide-icon-on-map: true
@@ -44,7 +46,7 @@ Memories:
 - BLSS
 - _Memory::SacredGrounds
 
-- .dir(E>) + .dir(E>)
+- .dir(E>) + .dir(E>) + .dir(E>)
 - _Memory::HyruleField
 
 - .dir(S.) -> BLSS
@@ -56,7 +58,7 @@ Memories:
 - BLSS -> .dir(.N) + .dir(W)
 - _Memory::SanidinPark
 
-- .dir(<<N) + .dir(N) + .dir(E) -> BLSS:
+- .dir(<<N) + .dir(<N) + .dir(E) -> BLSS:
     coord: [-1848.40, 269.02, 356.94]
 - _Memory::AncientColumns
 

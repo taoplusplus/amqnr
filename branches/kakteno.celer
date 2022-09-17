@@ -15,8 +15,13 @@ Kakteno:
     coord: [1842,891]
     icon: shrine
 
-- .dir(N.) up -> BLSS:
+- .dir(N.) up:
     coord: [1871.5,810.5]
+
+- _Material<3+ Blue Nightshade>:
+    hide-icon-on-map: true
+
+- BLSS
 
 - .loc(Hateno Blue Flame):
     coord: [3447.5,1982]
