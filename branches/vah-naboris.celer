@@ -1,80 +1,65 @@
-Vah Naboris:
+Naboris Start:
 - BLSS
 - _Npc::SheikaMale<Benja>:
     coord: [-3804.64, 149.50, 2818.36]
+    line-color: rgb(255,255,0)
+
 - Activate Daqo Chisay:
     icon: shrine
-    coord: [-3792.88, 147.19, 2807.05]
+    # hide-icon-on-map: true
+    coord: [-3816.5,2818.5]
 
-- BLSS
+- .dir(<E)
 - _Memory::KaraKaraBazaar
 
-- .dir(S>)
+- .dir(S.)
 - _Npc<Vilia>:
     coord: [-3259.27, 163.93, 2611.54]
     comment: Buy clothes
-    var-change:
-        Rupee: -600
-    notes: .v(Rupee) rupees; Player 5 is short on rupees here and sells materials to make up the difference.
 
-- BLSS
+- .dir(<W)
+- _Shop<Buy 30 Shock Arrows>:
+    hide-icon-on-map: true
+
 - _Npc::Gerudo<Riju>:
     coord: [-3892.04, 157.48, 2968.14]
     comment: In throne room
 
-- .dir(<N) -> 2 BTBs:
+- .dir(<N) + 2 BTBs:
     movements:
         - to: [-4132.90, 159.34, 2598.46]
         - to: [-3778.90, 326.03, 1855.20]
 
-- Clip in to .loc(Yiga Hideout)
+- Clip in to Yiga Hideout
 - _Equipment::Bow<Duplex Bow>:
     coord: [-3510.46, 442.51, 1297.31]
+
 - .boss(Kohga):
     icon: calamity
-    split-type: UserDefined
     hide-icon-on-map: true
+
 - _Chest::Special<Thunderhelm>:
     coord: [-3451.00, 440.69, 1331.50]
-
-- Raid hideout
-- _Chest<2 Gold Rupee>:
-    coord: [-3531.14, 443.27, 1351.34]
-    var-change:
-        Rupee: 600
-    notes: .v(Rupee) rupees
-- _Material<2 Topaz and 1 Ruby>:
-    hide-icon-on-map: true
-- .gale():
-    gale: 1
-- _Material<Mighty Bananas,18>:
-    coord: [-3576.71, 456.27, 1312.26]
+    split-type: UserDefined
 
 - WARP
 - _Warp::Shrine::DaqoChisay
 
-- .dir(S>)
-- _Cook<4 Attack Food>:
-    coord: [-3834.92, 148.98, 2946.04]
-- _Shop<Sell 2 Topaz and Ruby>:
-    coord: [-3858.52, 149.24, 2914.98]
-    var-change:
-        Rupee: 570
-    notes: .v(Rupee) rupees
-- _Shop<Buy 30 Shock Arrows>:
-    var-change:
-        Rupee: -420
-    notes: .v(Rupee) rupees
+
+
+
+Naboris End:
+# - Equip Gerudo Top
+- .dir(S>) to balcony
 - _Npc<Riju>:
     coord: [-3868.85, 166.67, 2948.96]
-    comment: Urbosa Memory
+    comment: Urbosa memory
 
-- .dir(W>)
+- .dir(W>) to outpost
 - _Npc<Riju>:
     coord: [-3420.68, 189.82, 3118.97]
-    comment: At outpost
 
-- Ride sand seal
+- Ride seal, shoot feet
 - Enter Naboris:
     icon: naboris-enter
     coord: [-2754.62, 112.53, 3749.44]
@@ -93,10 +78,12 @@ Vah Naboris:
         - to: [-3772,2851]
           warp: true
     split-type: UserDefined
-    line-color: red
+
+- Climb -> WB
 - _Npc::Gerudo<Riju>:
     coord: [-3892.04, 157.48, 2968.14]
     comment: In throne room
+    line-color: red
 
 - WARP
-- _Warp::VahNaboris
+- _Warp::Shrine::KeoRuug

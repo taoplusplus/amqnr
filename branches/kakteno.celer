@@ -1,0 +1,61 @@
+Kakteno:
+- BLSS
+- _Npc::SheikaFemale<Skip Paya, Impa 1>:
+    # line-color: rgb(221,160,221)
+    movements:
+        - to: [1784.43, 228.91, 986.46]
+        - to: [1772.71, 229.43, 984.31]
+
+- _Shop<Sell Ruby>:
+    coord: [1792.02, 222.40, 1028.39]
+    comment: Buy coward eggs
+
+- .dir(N.)
+- Activate Ta'loh Naeg:
+    coord: [1842,891]
+    icon: shrine
+
+- .dir(N.) up:
+    coord: [1871.5,810.5]
+
+- _Material<3+ Blue Nightshade>:
+    hide-icon-on-map: true
+
+- BLSS
+
+- .loc(Hateno Blue Flame):
+    coord: [3447.5,1982]
+    icon: tots
+    comment: Smuggle
+
+- .dir(E>) + .dir(E)
+- _Discover<Activate Tech Lab>:
+    movements:
+        - to: [3637.5,2098]
+        - to: [3783,2106.5]
+    comment: Don't throw away spear
+
+- _Equipment::Weapon<Torch>:
+    hide-icon-on-map: true
+    comment: Inside tech lab
+
+- Camera:
+    icon: camera-plus
+    hide-icon-on-map: true
+    split-type: UserDefined
+
+- _Snap::Quest<Purah>:
+    coord: [3774.95, 357.00, 2126.02]
+
+- WARP
+- _Warp::Shrine::TalohNaeg:
+    line-color: lime
+
+- _Npc::SheikaFemale<Impa 2>:
+    coord: [1772.71, 229.43, 984.31]
+
+- .dir(<E)
+- _Material<3 Fairy>:
+    hide-icon-on-map: true
+- _Snap::Quest<Great Fairy Fountain>:
+    coord: [1976.00, 267.50, 846.00]

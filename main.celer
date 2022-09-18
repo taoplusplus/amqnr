@@ -7,20 +7,22 @@ _project:
   url: ""
   version: 0.1.0
 _route:
-  - (==) This is the current (2022-04-29) wr run by .link([Player5]https://www.speedrun.com/user/Player5), .link([video link]https://youtu.be/nnlz4Cu7d5Y)
+  - (==) This is the current (2022-09-16) wr route by .link([TaoPlusPlus]https://www.speedrun.com/user/TaoPlusPlus), .link([video link]https://youtu.be/ZuTIiylaEZE)
+  - (==) For the previous (2022-04-29) world record by .link([Player5]https://www.speedrun.com/user/Player5), go .link([here]https://celer.itntpiston.app/#/gh/taoplusplus/amqnr/2022-04-29-Player5)
   - Plateau:
       - __use__ Plateau
-  - Camera:
-      - __use__ Camera
-  - Vah Medoh:
-      - __use__ Vah Medoh
+  - Kakteno:
+      - __use__ Kakteno
   - Memories:
       - __use__ Memories
+  - Vah Medoh:
+      - __use__ Vah Medoh
   - Vah Naboris:
-      - __use__ Vah Naboris
+      - __use__ Naboris Start
+      - __use__ Naboris End
   - Vah Rudania:
       - __use__ Vah Rudania
   - Vah Ruta:
       - __use__ Vah Ruta
-  - Cleanup:
+  - Ganon:
       - __use__ Ganon

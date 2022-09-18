@@ -3,35 +3,56 @@ Plateau:
     notes: Do not activate time of day.
 
 - .loc(Boko Camp)
-- +_Material<6 Spicy Pepper>:
-    coord: [-965.30, 238.52, 1956.67]
+
 - +_Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
+
 - +_Equipment::Weapon<Boko Spear>:
+    hide-icon-on-map: true
+
+- +_Material<6 Spicy Pepper>:
+    coord: [-965.30, 238.52, 1956.67]
+
+- +_Material<Seared Steak>:
+    hide-icon-on-map: true
+
+- +_Material<4 Hylian Shroom>:
     hide-icon-on-map: true
 
 - .loc(Temple of Time):
     notes: Clip in.
+
 - _Chest<Traveler's Bow>:
     coord: [-832.43, 222.00, 1963.11]
+
 - 5 Normal Arrow:
     icon: bow
     hide-icon-on-map: true
 
 - BLSS:
     notes: .link([Skew fix]https://twitter.com/TheKoroks/status/1477147629427433472?s=20&t=67Yr65osvtxvFD8Voud8vQ)
+
 - _Shrine::JaBaij
 
 - BLSS
 - _Tower::GreatPlateau
 
-- BLSS:
-    comment: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=521)
+- Jump down -> BLSS
+
 - _Chest<1 Ruby>:
     coord: [-671.65, 171.79, 1522.61]
+
 - _Shrine::OmanAu
 
+# - _Material<5 Hyrule Herb>:
+#     coord: [-709.74, 171.46, 1481.88]
+
 - BLSS -> .dir(.W)
+
+# - _Material<2 Apple>:
+#     coord: [-856.45, 192.73, 2274.48]
+
+# - .dir(.W)
 - _Shrine::OwaDaim:
     comment: Get Hammer
 

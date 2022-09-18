@@ -1,58 +1,36 @@
 Vah Medoh:
 - BLSS
-- _Material<Diamond>:
-    coord: [-2247.90, 353.39, 662.05]
-
-- .dir(N>)
-- _Material<Hearty Durian,10>:
-    coord: [-2190.5,441]
-
-- BLSS
-- _Memory::AncientColumns
-
-- BLSS
 - _Npc::Rito<Kaneli>:
     coord: [-3627.20, 323.57, -1830.81]
+
+- Run
 - _Npc::Rito<Saki>:
     coord: [-3606.64, 323.62, -1823.03]
-    comment: Revali Memory
-
-- _Shop<Buy 4 Sunshroom>:
-    coord: [-3643.01, 290.64, -1823.43]
-    var-change:
-        Rupee: -64
-    notes: .v(Rupee) rupees.
-- _Shop<Sell Diamond>:
-    hide-icon-on-map: true
-    var-change:
-        Rupee: 500
-    notes: .v(Rupee) rupees.
+    comment: Revali memory
 
 - .dir(<N)
-- _Cook<Cook Mushroom Skewer>:
-    coord: [-3792.60, 267.34, -2319.19]
-    comment: 4 Sunshroom
-- 10 Normal Arrow
 - _Npc::Rito<Teba>:
     coord: [-3798.52, 267.35, -2314.14]
-- Shoot 5 targets
+    comment: Get 10 Normal Arrow
+
+- Shoot 5 targets:
+    comment: Royal Bow
 - _Chest<Falcon Bow>:
     hide-icon-on-map: true
-- Shoot 4 cannons
 
-- Enter Medoh:
+- Shoot 4 cannons:
+    comment: Falcon Bow, 1 Ancient Arrow each
+- .dir(Enter Medoh):
     icon: medoh-enter
-    var-change:
-        Arrow: -5
-        BombArrow: -8
     split-type: UserDefined
     coord: [-3620.00, 739.95, -2110.00]
 
 - Complete Divine Beast
-- _Material<Ice Arrow,10>:
+- _Chest<10 Ice Arrow>:
     hide-icon-on-map: true
 - .boss(Windblight):
     icon: calamity
+    comment: Attack up, Royal Bow
     hide-icon-on-map: true
 
 - Revali's Gale:
@@ -61,8 +39,15 @@ Vah Medoh:
         - to: [-3565.625,-1817.375]
           warp: true
     split-type: UserDefined
-    line-color: plum
+    line-color: yellow
+
 - _Npc<Kaneli>:
     coord: [-3627.20, 323.57, -1830.81]
+    hide-icon-on-map: true
+
 - _Chest::Special<Great Eagle Bow>:
     hide-icon-on-map: true
+
+- WARP
+- _Warp::Shrine::KehNamut:
+    line-color: yellow

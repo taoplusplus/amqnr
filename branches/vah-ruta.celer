@@ -2,13 +2,8 @@ Vah Ruta:
 - BLSS
 - _Npc::ZoraMale<King Dorephan>:
     coord: [3338.31, 268.90, -551.60]
-    comment: Fish Drama
 
-- _Npc::ZoraMale<Muzu>:
-    coord: [3303.90, 245.31, -496.23]
-    comment: Mipha Memory
-
-- .dir(E) + .dir(E>)
+- .dir(E) + .dir(E)
 - _Npc::ZoraMale<Sidon>:
     coord: [3598.55, 316.00, -330.31]
 
@@ -20,12 +15,6 @@ Vah Ruta:
     split-type: UserDefined
 
 - Complete Divine Beast
-- .gale():
-    gale: 1
-- .boss(Waterblight):
-    icon: calamity
-    hide-icon-on-map: true
-
 - Mipha's Grace:
     icon: ruta-done
     movements:
@@ -35,8 +24,8 @@ Vah Ruta:
 
 - .dir(N>)
 - _Npc::ZoraMale<King Dorephan>:
+    line-color: violet
     coord: [3338.31, 268.90, -551.60]
-    line-color: white
 
 - WARP
-- _Warp::VahRudania
+- _Warp::Shrine::TalohNaeg
