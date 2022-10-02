@@ -7,8 +7,7 @@ _project:
   url: ""
   version: 0.1.0
 _route:
-  - (==) This is the current (2022-09-16) wr route by .link([TaoPlusPlus]https://www.speedrun.com/user/TaoPlusPlus), .link([video link]https://youtu.be/ZuTIiylaEZE)
-  - (==) For the previous (2022-04-29) world record by .link([Player5]https://www.speedrun.com/user/Player5), go .link([here]https://celer.itntpiston.app/#/gh/taoplusplus/amqnr/2022-04-29-Player5)
+  - (==) This is a previous (2022-09-16) wr run by .link([TaoPlusPlus]https://www.speedrun.com/user/TaoPlusPlus), .link([video link]https://youtu.be/ZuTIiylaEZE)
   - Plateau:
       - __use__ Plateau
   - Kakteno:
